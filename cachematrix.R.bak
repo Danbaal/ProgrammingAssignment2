@@ -1,0 +1,16 @@
+## These functions are built to cache the inverse of a matrix
+## that could be high time-cosuming computation
+
+## This function creates a special matrix which is really a list 
+## containing the functions needed to cache the matrix 
+
+makeCacheMatrix <- function(x = matrix()) {
+
+}
+
+
+## This function calculates the inverse of the special matrix
+
+cacheSolve <- function(x, ...) {
+        ## Return a matrix that is the inverse of 'x'
+}
